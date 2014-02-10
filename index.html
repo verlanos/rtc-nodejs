@@ -1,0 +1,31 @@
+<html>
+<head>
+	<link rel="stylesheet" href="/style/login.css"/>
+	<script src="/script/jquery.js"></script>
+	<script src="/socket.io/socket.io.js"></script>
+    <script src="/script/adapter.js"></script>
+    <script src="/script/globals.js"></script>
+    <script src="/script/chatman.js"></script>
+    <script src="/script/gui.js"></script>
+	<script>
+	function createPrivateConversation(id)
+	{
+
+	}
+
+    var createSession = function(data)
+    {
+    	session = new Object();
+    	session.id = data.session_id;
+    	session.username = uname;
+    };
+
+	</script>
+</head>
+<body>
+	<div id="login" class="centered">
+		<input type="text" id="username" autofocus="true"/>
+		<button id="submit" type="button" >Login</button>
+	</div>
+</body>
+</html>

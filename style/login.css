@@ -1,0 +1,35 @@
+.centered{
+    position: fixed;
+    top: 45%;
+    left: 45%;
+}
+
+.centered_button{
+    position: absolute;
+    top: 30%;
+    right: 30%;
+}
+
+.lefted{
+    position: fixed;
+    top: 30%;
+    left: 30%;
+}
+
+.nolist{
+    list-style-type: none;
+}
+
+.chat_room_items{
+    float: left;
+}
+
+.video_items{
+    float: right;
+}
+
+#chatRoomContainer{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
